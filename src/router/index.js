@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 var router = new VueRouter({
 	routes:[
 		{path:"/main",component:main},
-		{path:"/login",component:login}
+		{path:"/",component:login}
 	]
 });
 export default router
